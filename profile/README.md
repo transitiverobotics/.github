@@ -1,5 +1,14 @@
+<p align="center">
+  <a href="https://transitiverobotics.com">
+    <img src="https://transitiverobotics.com/img/logo.svg" style="height: 64px">
+  </a>
+</p>
+
 ### [Transitive Robotics](https://transitiverobotics.com/)
-Full-stack robotic capabilities
+An open-source framework for building full-stack robotic capabilities.
 
+Transitive helps robotics companies avoid the make-vs-buy dilemma of fleet management by offering an alternative: making it a lot easier to build your own fleet management system and cloud portals. It does so by two means: 
+ - an [open-source framework](https://github.com/transitiverobotics/transitive) that readily solves many of the hard problems such as reliable world-state synchronization between robot, cloud, and web; authentication & authorization; versioning and over-the-air updates; and cross-device dependency management, and
+ - a growing [list of full-stack components](https://transitiverobotics.com/caps), called *capabilities*, that provide required functions such as remote video streaming to the web.
 
-We are currently working on the open-source release of the Transitive framework, i.e., the source-code for the Transitive agent that gets installed on devices, as well as the cloud-stack behind transitiverobotics.com. The easiest way to get started with Transitive is to try our hosted solution by requesting an invite to our beta and then try out some of the [capabilities](https://transitiverobotics.com/caps) that have been released so far.
+The latter can be embedded in any web application, regardless of whether it was built using Transitive or not. The only requirement is to have the Transitive agent running on the robot.
